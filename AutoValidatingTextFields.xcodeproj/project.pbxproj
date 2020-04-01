@@ -13,6 +13,10 @@
 		95A52EA5243486E400DE2865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A52EA4243486E400DE2865 /* Assets.xcassets */; };
 		95A52EA8243486E400DE2865 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A52EA7243486E400DE2865 /* Preview Assets.xcassets */; };
 		95A52EAB243486E400DE2865 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A52EA9243486E400DE2865 /* LaunchScreen.storyboard */; };
+		95A52EB32434870E00DE2865 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A52EB22434870E00DE2865 /* Constants.swift */; };
+		95A52EB52434889E00DE2865 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A52EB42434889E00DE2865 /* ViewRouter.swift */; };
+		95A52EB9243489B900DE2865 /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A52EB8243489B900DE2865 /* MotherView.swift */; };
+		95A52EBB24348A2200DE2865 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A52EBA24348A2200DE2865 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		95A52EA7243486E400DE2865 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95A52EAA243486E400DE2865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95A52EAC243486E400DE2865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A52EB22434870E00DE2865 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		95A52EB42434889E00DE2865 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		95A52EB8243489B900DE2865 /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
+		95A52EBA24348A2200DE2865 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				95A52EA9243486E400DE2865 /* LaunchScreen.storyboard */,
 				95A52EAC243486E400DE2865 /* Info.plist */,
 				95A52EA6243486E400DE2865 /* Preview Content */,
+				95A52EB22434870E00DE2865 /* Constants.swift */,
+				95A52EB42434889E00DE2865 /* ViewRouter.swift */,
+				95A52EB8243489B900DE2865 /* MotherView.swift */,
+				95A52EBA24348A2200DE2865 /* HomeView.swift */,
 			);
 			path = AutoValidatingTextFields;
 			sourceTree = "<group>";
@@ -146,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95A52EB52434889E00DE2865 /* ViewRouter.swift in Sources */,
+				95A52EBB24348A2200DE2865 /* HomeView.swift in Sources */,
+				95A52EB9243489B900DE2865 /* MotherView.swift in Sources */,
 				95A52E9F243486E200DE2865 /* AppDelegate.swift in Sources */,
 				95A52EA1243486E200DE2865 /* SceneDelegate.swift in Sources */,
 				95A52EA3243486E200DE2865 /* ContentView.swift in Sources */,
+				95A52EB32434870E00DE2865 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
